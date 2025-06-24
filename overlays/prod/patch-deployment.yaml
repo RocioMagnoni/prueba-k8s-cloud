@@ -7,5 +7,6 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: 192.168.49.1/encuestapp-prueba/encuestapp:REPLACEME
-
+          image:
+            - name: ghcr.io/tu-org/encuestapp
+              newTag: abc1234
