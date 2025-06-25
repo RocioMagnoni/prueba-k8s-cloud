@@ -8,5 +8,5 @@ spec:
       containers:
         - name: encuestapp
           image:
-            - name: nimbusops1/encuestapp:REPLACEME
+            - name: nimbus2025/encuestapp:REPLACEME
               newTag: abc1234
