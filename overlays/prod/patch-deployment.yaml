@@ -9,4 +9,3 @@ spec:
         - name: encuestapp
           image:
             - name: nimbus2025/encuestapp:REPLACEME
-              newTag: abc1234
