@@ -8,6 +8,6 @@ spec:
       containers:
         - name: encuestapp
           images:
-            - name: ghcr.io/tu-org/encuestapp
+            - name: nimbusops1/encuestapp:REPLACEME
               newTag: abc1234
 
