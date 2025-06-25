@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: nimbus2025/encuestapp:995de45
+          image: nimbus2025/encuestapp:f3cab34
 
