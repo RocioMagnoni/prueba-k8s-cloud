@@ -9,4 +9,3 @@ spec:
         - name: encuestapp
           image:
             - name: nimbus2025/encuestapp:f2d3223
-              newTag: abc1234
