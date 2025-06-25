@@ -18,6 +18,6 @@ spec:
         - name: harbor-pull-argocd
       containers:
         - name: encuestapp
-          image: nimbusops1/encuestapp:REPLACEME
+          image: nimbus2025/encuestapp:REPLACEME
           ports:
             - containerPort: 80
