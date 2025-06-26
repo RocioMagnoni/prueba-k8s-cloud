@@ -15,7 +15,7 @@ spec:
         app: encuestapp
     spec:
       imagePullSecrets:
-        - name: dockerhub-pull-argocd
+        - name: dockerhub-pull
       containers:
         - name: encuestapp
           image: nimbus2025/encuestapp:REPLACEME
