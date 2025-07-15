@@ -1,5 +1,5 @@
 # overlays/prod/kustomization.yaml
-namespace: ambiente-stg-encuestapp
+namespace: ambiente-stg-prueba
 resources:
   - ../../base
   #- hpa.yaml
@@ -8,5 +8,4 @@ resources:
 
 patchesStrategicMerge:
   - patch-deployment.yaml
-  - patch-secret.yaml
 

@@ -1,9 +1,9 @@
 # overlays/dev/kustomization.yaml
-namespace: ambiente-dev-encuestapp
+namespace: ambiente-dev-prueba
 
 resources:
   - ../../base
 
 patchesStrategicMerge:
   - patch-deployment.yaml
-  - patch-sealed-dockerhub-pull.yaml
+

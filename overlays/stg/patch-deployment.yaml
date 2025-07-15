@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: encuestapp
+  name: prueba
 spec:
   template:
     spec:
       containers:
-        - name: encuestapp
+        - name: prueba
           image:
-            - name: nimbus2025/encuestapp:f2d3223
+            - name: rociomagnoni/prueba:REPLACEME

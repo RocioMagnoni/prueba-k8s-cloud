@@ -1,23 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: encuestapp
+  name: prueba
   labels:
-    app: encuestapp
+    app: prueba
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: encuestapp
+      app: prueba
   template:
     metadata:
       labels:
-        app: encuestapp
+        app: prueba
     spec:
-      imagePullSecrets:
-        - name: dockerhub-pull
       containers:
-        - name: encuestapp
-          image: nimbus2025/encuestapp:REPLACEME
+        - name: prueba
+          image: rociomagnoni/prueba:REPLACEME
           ports:
             - containerPort: 80

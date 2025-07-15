@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: encuestapp-service
+  name: prueba-service
 spec:
   selector:
-    app: encuestapp
+    app: prueba
   ports:
     - protocol: TCP
       port: 80
