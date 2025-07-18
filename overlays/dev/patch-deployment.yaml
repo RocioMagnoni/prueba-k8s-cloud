@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: prueba
-          image: rociomagnoni/prueba:76fc620
+          image: rociomagnoni/prueba:705ee75
 
