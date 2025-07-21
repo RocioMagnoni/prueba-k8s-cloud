@@ -1,1 +1,1 @@
-# encuestapp-k8s-cloud
+# prueba-k8s-cloud
