@@ -8,4 +8,4 @@ spec:
       containers:
         - name: prueba
           image:
-            - name: rociomagnoni/prueba:REPLACEME
+            - name: rociomagnoni/prueba1:REPLACEME

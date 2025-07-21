@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: prueba
-          image: rociomagnoni/prueba:REPLACEME
+          image: rociomagnoni/prueba1:REPLACEME
           ports:
             - containerPort: 80
